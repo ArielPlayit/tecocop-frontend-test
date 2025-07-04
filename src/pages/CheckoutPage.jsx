@@ -41,7 +41,7 @@ const CheckoutPage = () => {
         <form onSubmit={handleSubmit(onSubmit)} className="mb-6">
           <h3 className="font-medium mb-2">Información de envío</h3>
           <div className="space-y-4">
-            {/* Nombre */}
+            
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">Nombre completo</label>
               <input 
@@ -52,7 +52,6 @@ const CheckoutPage = () => {
               {errors.nombre && <p className="text-red-500 text-sm mt-1">{errors.nombre.message}</p>}
             </div>
 
-            {/* Dirección */}
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">Dirección</label>
               <input 
